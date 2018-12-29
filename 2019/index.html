@@ -24,6 +24,18 @@
 	color: inherit; 
 	text-decoration: none;
 	}
+	.white_bg 
+	{
+    background-color: #eef7fa;
+    padding: 3px;
+	}
+	.line2 {
+  margin:5px 0;
+  height:2px;
+  background:
+    repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+    /*10px red then 2px transparent -> repeat this!*/
+}
 </style>
   </head>
 
@@ -89,9 +101,15 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
           	<h2>News</h2>
-            <p><strong>December 29, 2018</strong>. The deadlines for long &amp; short paper submissions, notification of acceptances, and camera ready versions are now posted. See&nbsp;<a href="https://starsem.org/2019/#dates">Important Dates</a>&nbsp;section on the home page.</p>
+          	<p>
+          	<span class="white_bg">
+            <strong>December 29, 2018</strong>. The deadlines for long &amp; short paper submissions, notification of acceptances, and camera ready versions are now posted. See&nbsp;<a href="https://starsem.org/2019/#dates">Important Dates</a>&nbsp;section on the home page.            	        
+        	</span>
+        	<div class="line2"></div>
+        	</p>
             <h2>Welcome!</h2>
             <p>We are pleased to announce that SIGLEX and SIGSEM, special interest groups of the ACL, are organizing the 8th Joint Conference on Lexical and Computational Semantics: *SEM. This time *SEM will be co-located with NAACL-HLT 2019 in Minneapolis (USA), and it will take place on the 6-7 of June 2019. We will update this website with more information as it becomes available.</p>
+
             <br>
             <br>
           </div>
