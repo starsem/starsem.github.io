@@ -1,107 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bgimg {
-  background-color: #ffffff;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
-
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-  color: #000000;
-}
-.topleft2 {
-  position: absolute;
-  top: 0;
-  left: 80px;
-  color: #000000;
-}
-.topleft3 {
-  position: relative;
-  top: 150px;
-  left: 16px;
-  color: #000000;
-}
-.topleft4 {
-  position: relative;
-  top: 140px;
-  left: 16px;
-  color: #000000;
-}
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-  color: #000000;
-}
-
-.middle {
-  position: absolute;
-  top: 6px;
-  left: 120px;
-  text-align: center;
-  color: #000000;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-.line2 {
-  margin:2px 0;
-  height:2px;
-  background:
-    repeating-linear-gradient(to right,black 0,black 8px,transparent 8px,transparent 8px)
-    /*10px red then 2px transparent -> repeat this!*/
-}
-</style>
-
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<div class="bgimg">
-  <div class="topleft">
-  <a href="http://starsem.org/"><p><img src="logo.png" width="100" height="100"/></p></a>
-  </div>
-    <div class="topleft3">
-  <a href="http://www.siglex.org/"><p><img src="siglex.gif" width="100" height="100"/></p></a>
-  </div>
-  <div class="topleft4">
-  <a href="http://www.sigsem.org/wiki/"><p><img src="sigsem.png" width="100" height="100"/></p></a>
-  </div>
-  <div class="middle">
+<div class="container">
+  <div class="jumbotron">
     <h1>THE JOINT CONFERENCE ON LEXICAL and COMPUTATIONAL SEMANTICS</h1>
-  <p style="text-align: center;">*SEM is a series of conferences that bring together researchers interested in the semantics of natural languages and its computational modeling. The conference embraces symbolic and probabilistic approaches, and everything in between; theoretical contributions as well as practical applications are welcome. The long-term goal of *SEM is to provide a stable forum for the growing number of NLP researchers working on all aspects of semantics.</p>
-  <div class="line2"></div>
-      <p>
-  <p><strong><span style="color: #008000;">Forthcoming</span></p></strong>
+    <p>Organised by SIGLEX and SIGSEM.</p> 
+  </div>
+  <div class="row">
+  <div class="col-sm-12">
+    <a href="http://starsem.org/"><img src="logo.png" width="100" height="100"/></a>
+  <a href="http://www.siglex.org/"><img src="siglex.gif" width="100" height="100"/></a>
+  <a href="http://www.sigsem.org/wiki/"><img src="sigsem.png" width="100" height="100"/></a>
+  </div>
+    </div>
+      <div class="row">
+  <div class="col-sm-12">
+    <p>*SEM is a series of conferences that bring together researchers interested in the semantics of natural languages and its computational modeling. The conference embraces symbolic and probabilistic approaches, and everything in between; theoretical contributions as well as practical applications are welcome. The long-term goal of *SEM is to provide a stable forum for the growing number of NLP researchers working on all aspects of semantics.</p>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Forthcoming</h3>
   <hr>
-<a href="https://starsem.org/2019/">*SEM 2019 (Minneapolis, US)</a><br>
-<p><span style="color: #ff0000;">Previous *SEM events</span></p>
-<hr>
-<a href="https://sites.google.com/view/starsem2018/">*SEM 2018 (New Orlans, US)</a><br>
-<a href="https://sites.google.com/site/starsem2017/">*SEM 2017 (Vancouver, Canada)</a><br>
-<a href="https://sites.google.com/site/starsem2016/">*SEM 2016 (Berlin, Germany)</a><br>
-<a href="https://sites.google.com/site/starsem2015/">*SEM 2015 (Denver, US)</a><br>
-<a href="https://aclweb.org/anthology/S/S14/">*SEM 2014 (Dublin, Ireland)</a><br>
-<a href="https://aclweb.org/anthology/S/S13/">*SEM 2013 (Atlanta, US)</a><br>
-<a href="http://ixa2.si.ehu.es/starsem/">*SEM 2012 (Montreal, Canada)</a><br>
+<p><a href="https://starsem.org/2019/">*SEM 2019 (Minneapolis, US)</a></p>
+    </div>
+    <div class="col-sm-6">
+      <h3>Previous *SEM events</h3>
+      <hr>
+<p><a href="https://sites.google.com/view/starsem2018/">*SEM 2018 (New Orlans, US)</a></p>
+<p><a href="https://sites.google.com/site/starsem2017/">*SEM 2017 (Vancouver, Canada)</a></p>
+<p><a href="https://sites.google.com/site/starsem2016/">*SEM 2016 (Berlin, Germany)</a></p>
+<p><a href="https://sites.google.com/site/starsem2015/">*SEM 2015 (Denver, US)</a></p>
+<p><a href="https://aclweb.org/anthology/S/S14/">*SEM 2014 (Dublin, Ireland)</a></p>
+<p><a href="https://aclweb.org/anthology/S/S13/">*SEM 2013 (Atlanta, US)</a></p>
+<p><a href="http://ixa2.si.ehu.es/starsem/">*SEM 2012 (Montreal, Canada)</a></p>
+    </div>
+    
   </div>
 </div>
 
