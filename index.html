@@ -29,6 +29,18 @@ body, html {
   left: 80px;
   color: #000000;
 }
+.topleft3 {
+  position: relative;
+  top: 150px;
+  left: 16px;
+  color: #000000;
+}
+.topleft4 {
+  position: relative;
+  top: 140px;
+  left: 16px;
+  color: #000000;
+}
 .bottomleft {
   position: absolute;
   bottom: 0;
@@ -38,9 +50,8 @@ body, html {
 
 .middle {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 6px;
+  left: 120px;
   text-align: center;
   color: #000000;
 }
@@ -50,10 +61,10 @@ hr {
   width: 40%;
 }
 .line2 {
-  margin:5px 0;
+  margin:2px 0;
   height:2px;
   background:
-    repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+    repeating-linear-gradient(to right,black 0,black 8px,transparent 8px,transparent 8px)
     /*10px red then 2px transparent -> repeat this!*/
 }
 </style>
@@ -61,13 +72,17 @@ hr {
 
 <div class="bgimg">
   <div class="topleft">
-  <p><img src="logo.png" width="55" height="55"/></p>
+  <a href="http://starsem.org/"><p><img src="logo.png" width="100" height="100"/></p></a>
   </div>
-    <div class="topleft2">
-          <p>*SEM</p>
+    <div class="topleft3">
+  <a href="http://www.siglex.org/"><p><img src="siglex.gif" width="100" height="100"/></p></a>
+  </div>
+  <div class="topleft4">
+  <a href="http://www.sigsem.org/wiki/"><p><img src="sigsem.png" width="100" height="100"/></p></a>
   </div>
   <div class="middle">
     <h1>THE JOINT CONFERENCE ON LEXICAL and COMPUTATIONAL SEMANTICS</h1>
+  <p style="text-align: left;">*SEM is a series of conferences that bring together researchers interested in the semantics of natural languages and its computational modeling. The conference embraces symbolic and probabilistic approaches, and everything in between; theoretical contributions as well as practical applications are welcome. The long-term goal of *SEM is to provide a stable forum for the growing number of NLP researchers working on all aspects of semantics.</p>
   <div class="line2"></div>
       <p>
   <p><strong><span style="color: #008000;">Forthcoming</span></p></strong>
